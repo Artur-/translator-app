@@ -57,6 +57,7 @@ public class MainLayout extends AppLayout {
 
         nav.addItem(new AppNavItem("Hello World", HelloWorldView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
         nav.addItem(new AppNavItem("About", AboutView.class, LineAwesomeIcon.FILE.create()));
+        nav.addItem(new AppNavItem("Checkout", CheckoutFormView.class, LineAwesomeIcon.CASH_REGISTER_SOLID.create()));
 
         return nav;
     }
