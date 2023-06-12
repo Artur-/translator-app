@@ -12,7 +12,7 @@
     <properties>
         <java.version>17</java.version>
         <vaadin.version>24.1.0</vaadin.version>
-        <flow.version>24.1.trans-SNAPSHOT</flow.version>
+        <flow.version>24.2.translator-SNAPSHOT</flow.version>
         <selenium.version>4.8.3</selenium.version>
     </properties>
 
@@ -30,7 +30,17 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>Vaadin Pre</id>
+            <url>https://maven.vaadin.com/vaadin-prereleases</url>
+        </repository>
     </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>Vaadin Pre</id>
+            <url>https://maven.vaadin.com/vaadin-prereleases</url>
+        </pluginRepository>
+    </pluginRepositories>
 
     <dependencyManagement>
         <dependencies>
